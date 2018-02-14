@@ -69,7 +69,7 @@ while i <=43:
 
 i = 1
 total = 0
-while i <=5
+while i <= 5:
     total = total + i
     i +=1
 print (total)
