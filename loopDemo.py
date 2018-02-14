@@ -44,6 +44,7 @@ print (total)
 i=0
 while i<5:
     print("Yoot Yoot!")
+    i = i+1  #update step: otherwise infinite loop
     
 
 # if you bracket a large block with triple quotes it comments the whole thing out
