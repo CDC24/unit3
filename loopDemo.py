@@ -47,20 +47,21 @@ while i<5:
     i = i+1  #update step: otherwise infinite loop
  """   
 
-# if you bracket a large block with triple quotes it comments the whole thing out
-
+"""
 i = 1
 while i<=10:
     print(i)
-    i = i+=1 #means add one to i, works with other operations too
-
-
+    i += 1 #means add one to i, works with other operations too
 """
+
+
 #Count from 27 to 43 by 2's
 
-for i in range (27,44,2): # the 3rd number is how much to count up by
+1 = 27
+while i <=43:
     print(i)
-"""
+    i += 2
+
 """
 #add up the numbers from 1 to 5
 
