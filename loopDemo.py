@@ -22,14 +22,51 @@ for i in range (1,11):
 for i in range (27,44,2): # the 3rd number is how much to count up by
     print(i)
 """
-
+"""
 #add up the numbers from 1 to 5
 
 total = 0
 for i in range(1,6):
     total = total + i
 print (total)
+"""
+
+
+
+
+
+
+# now is time for while loops
+
+
+# printing five times without copy and paste or *5
+
+i=0
+while i<5:
+    print("Yoot Yoot!")
     
+
+# if you bracket a large block with triple quotes it comments the whole thing out
+
+"""
+for i in range (1,11):
+    print(i)
+""" 
+
+"""
+#Count from 27 to 43 by 2's
+
+for i in range (27,44,2): # the 3rd number is how much to count up by
+    print(i)
+"""
+"""
+#add up the numbers from 1 to 5
+
+total = 0
+for i in range(1,6):
+    total = total + i
+print (total)
+"""
     
     
     
