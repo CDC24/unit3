@@ -13,5 +13,16 @@ for i in range(1,6):        #i stands for index but it could be any letter or wo
 """
 # if you bracket a large block with triple quotes it comments the whole thing out
 
+"""
 for i in range (1,11):
     print(i)
+""" 
+    
+#Count from 27 to 43 by 2's
+
+for i in range (27,44,2): # the 3rd number is how much to count up by
+    print(i)
+    
+    
+    
+    
