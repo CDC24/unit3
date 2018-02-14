@@ -54,22 +54,26 @@ while i<=10:
     i += 1 #means add one to i, works with other operations too
 """
 
-
+"""
 #Count from 27 to 43 by 2's
 
 i = 27
 while i <=43:
     print(i)
     i += 2
-
 """
+
+
+
 #add up the numbers from 1 to 5
 
+i = 1
 total = 0
-for i in range(1,6):
+while i <=5
     total = total + i
+    i +=1
 print (total)
-"""
+
     
     
     
