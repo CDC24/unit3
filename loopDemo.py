@@ -38,21 +38,22 @@ print (total)
 
 # now is time for while loops
 
-
+"""
 # printing five times without copy and paste or *5
 
 i=0
 while i<5:
     print("Yoot Yoot!")
     i = i+1  #update step: otherwise infinite loop
-    
+ """   
 
 # if you bracket a large block with triple quotes it comments the whole thing out
 
-"""
-for i in range (1,11):
+i = 1
+while i<=10:
     print(i)
-""" 
+    i = i+=1 #means add one to i, works with other operations too
+
 
 """
 #Count from 27 to 43 by 2's
