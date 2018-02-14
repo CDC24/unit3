@@ -4,7 +4,7 @@
 
 
 word = input("What is your favorite word? ")
-num = input("What is your favorite number? ")
+num = int(input("What is your favorite number? "))
 
 for i in range (1,num+1):
     print (word)
