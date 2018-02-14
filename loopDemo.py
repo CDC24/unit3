@@ -57,7 +57,7 @@ while i<=10:
 
 #Count from 27 to 43 by 2's
 
-1 = 27
+i = 27
 while i <=43:
     print(i)
     i += 2
