@@ -5,7 +5,7 @@
 
 num = int(input("Enter a number: "))
 
-i = 0
-while i <= num:
+
+for i in range(0,num,5):
     i+=5
     print (i)
