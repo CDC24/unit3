@@ -5,5 +5,13 @@
 
 # i love computer science five times without copy and paste or *5
 
-for i in range(1,5):        #i stands for index but it could be any letter or word
-    print("Yoot Yoot!")
+"""
+
+for i in range(1,6):        #i stands for index but it could be any letter or word
+    print("Yoot Yoot!")     # THESE LINES WILL SKIP THE LAST NUMBER IN THE SPECIFIED RANGE- IT HAS TO BE BETWEEN 1 AND 6 IF YOU WANT 5 REPETITIONS
+    
+"""
+# if you bracket a large block with triple quotes it comments the whole thing out
+
+for i in range (1,11):
+    print(i)
