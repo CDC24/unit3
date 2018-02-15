@@ -9,8 +9,8 @@ while 1==1:
     print (text)
 """ 
  
- while True:     #true does the same as 1==1
+while True:     #true does the same as 1==1
     text = input("say anything: ")
     if text == "anything":
-         break
+        break
     print (text)
