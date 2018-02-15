@@ -3,5 +3,7 @@
 #printStars.py - prints out many characters
 
 
-for i in range(0, 21):
-    print (" "*i/2,"*"*i)
+num = int(input("Enter a number: ")
+
+for i in range(0,  num+1):
+    print (" "*i+num,"*"*i)
