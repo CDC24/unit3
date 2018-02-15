@@ -8,4 +8,5 @@ space = int(input("Enter how much to go up by each time: "))
 
 for i in range (start, end+1):
     i+=space
-    print (i)
+    total = total+i
+    print (total)
