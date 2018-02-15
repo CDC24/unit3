@@ -8,4 +8,5 @@ num = int(input("Enter a number: "))
 
 for i in range(0,num,5):
     i+=5
-    print (i)
+    if i<=num:
+        print (i)
