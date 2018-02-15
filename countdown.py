@@ -8,3 +8,6 @@ num = int(input("Enter a number: ")
 i = num
 while i>0:
     print (i)
+    if i == 1:
+        print ("BOOOM! GOT 'EM")
+    
