@@ -10,5 +10,5 @@ total = 0
 for i in range (start, end+1):
     i+=space
     total = total+i
-    when i == end:
+    if i == end:
         print (total)
