@@ -5,7 +5,7 @@
 
 from random import randint
 
-num = randint (1,100)
+num = randint (1,10)
 
 i = 0
 
