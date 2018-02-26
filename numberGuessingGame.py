@@ -5,7 +5,7 @@
 
 from random import randint
 
-hard = int(input("How hard do you want this game to be? Enter a number, the higher the more difficult: ")
+hard = int(input("How hard do you want this game to be? Enter a number, the higher the more difficult: "))
 
 num = randint (1,hard)
 
