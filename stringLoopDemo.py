@@ -7,3 +7,8 @@ name = input ("Enter your name. ")
 
 for ch in name: #ch stands for character but can be anything
     print (ch)
+    
+    
+    
+for ch in name: #ch stands for character but can be anything
+    print (ch *7)
