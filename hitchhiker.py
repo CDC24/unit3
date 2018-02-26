@@ -7,4 +7,5 @@ while True:
     q = input ("Ask a question or type 'stop': ")
     if q == ("stop"):
         break
+    print ("42")
     
