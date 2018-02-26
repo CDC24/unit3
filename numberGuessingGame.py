@@ -14,3 +14,4 @@ while True:
     guess= input ("Guess a number from 1 to 100.")
     if guess == num:
         print ("you got it in",i,"guesses!")
+        break
