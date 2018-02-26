@@ -19,3 +19,5 @@ while True:
         print ("Too high!")
     elif guess < num:
         print ("Too low!")
+    else:
+        print ("You did something wrong, son.")
