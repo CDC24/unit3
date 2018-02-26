@@ -3,6 +3,6 @@
 #warmUp7.py - prints product of numbers 1-20
 
 
-for i in rage (1,21):
+for i in range (1,21):
     i += 1
-    print i
+    print (i)
