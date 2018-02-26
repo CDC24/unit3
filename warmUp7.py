@@ -5,5 +5,4 @@
 total = 1
 for i in range (1,21):
     total *= i
-    if i == 20:
-        print (total)
+print (total)
