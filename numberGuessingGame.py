@@ -5,13 +5,15 @@
 
 from random import randint
 
-num = randint (1,100)
+hard = int(input("How hard do you want this game to be? Enter a number, the higher the more difficult: ")
+
+num = randint (1,hard)
 
 i = 0
 
 while True:
     i+=1
-    guess= int(input("Guess a number from 1 to 100."))
+    guess= int(input("Guess a number from 1 to",hard,"."))
     if guess == num:
         print ("You got it in",i,"guesses!")
         break
