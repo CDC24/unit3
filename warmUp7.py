@@ -4,6 +4,6 @@
 
 total = 1
 for i in range (1,21):
-    total += total*i
+    total *= i
     if i == 20:
         print (total)
