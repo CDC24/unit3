@@ -5,5 +5,5 @@
 
 for i in range (0, 100001):
     if i//3==0 and i//10==0 and 17//17==0:
-        print i
+        print (i)
     i +=1
