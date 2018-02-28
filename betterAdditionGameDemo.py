@@ -13,3 +13,4 @@ while numCorrect <5:
      numCorrect+=1
     else:
         print ("You idiot! It was", num1+num2,"!")
+print ("K you are done")
