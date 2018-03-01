@@ -5,9 +5,11 @@
 
 from ggame import *
 
+RADIUS = 10        #capitals indicate a constant
+
 green = Color(0x00FF00,1)
 
-dot = CircleAsset(25,LineStyle(1,green), green)
+dot = CircleAsset(RADIUS,LineStyle(1,green), green)
 
 
 
