@@ -8,5 +8,7 @@ total=0
 for i in range (1,num):
     if num%i==0:
         total+=i
-print (total)
-
+if total == num:
+    print ("That is a perfect number")
+else:
+    print ("That is not a perfect number")
