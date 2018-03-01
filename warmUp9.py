@@ -6,7 +6,7 @@ text = input ("Enter some text: ")
 
 
 for ch in text:
-    if ch == ("i") or if ch == ("a") or if ch == ("e") or if ch == ("o") or if ch == ("u"):
+    if ch == ("i") or ch == ("a") or ch == ("e") or ch == ("o") or ch == ("u"):
         print (ch.upper())
     else:
         print (ch)
