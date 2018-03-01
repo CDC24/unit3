@@ -3,6 +3,12 @@
 #fri13.py- finds the next 10 Friday the 13ths
 
 
-from datetime import date
+from datetime import *
+from calendar import weekday
 
-print(weekday(2013,2,14))
+
+day = date.today().day
+month = date.today().month
+year = date.today().year
+
+print(weekday(year,month,day))
