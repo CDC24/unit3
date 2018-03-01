@@ -4,4 +4,4 @@
 
 text = input ("Enter some text: ")
 
-print text.upper()
+print (text.upper())
