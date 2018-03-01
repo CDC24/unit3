@@ -1,3 +1,15 @@
 #Caleb Callaway
-#2/28/18
-#dotsDemo.py- uses loops with graphics
+#3/1/18
+#dotsDemo.py- using loops with graphics
+
+
+from ggame import *
+
+green = Color(0x00FF00,1)
+
+dot = CircleAsset(100,LineStyle(1,green), green)
+
+
+Sprite(dot)
+
+App().run()
