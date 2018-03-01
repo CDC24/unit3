@@ -7,9 +7,9 @@ from ggame import *
 
 green = Color(0x00FF00,1)
 
-dot = CircleAsset(50,LineStyle(1,green), green)
+dot = CircleAsset(25,LineStyle(1,green), green)
 
 
-Sprite(dot,(100,100))
+Sprite(dot,(10,10))
 
 App().run()
