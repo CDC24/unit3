@@ -11,6 +11,6 @@ day = date.today().day
 month = date.today().month
 year = date.today().year
 
-for weekday(year,month,day):
-    
+for weekday(year,month,day)==4:
+    #infintiitte watch outuut
 
