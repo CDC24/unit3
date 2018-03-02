@@ -17,5 +17,8 @@ while fris<=10:
     if weekday(year,month,day)==4:
         if day == 13:
             print (year, month, day)
+            month+=1
             fris+=1
+            if month == 12:
+                year +=1
 
