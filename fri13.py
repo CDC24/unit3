@@ -14,14 +14,13 @@ year = date.today().year
 fris = 0
 
 while fris<=10:
-    if day == 13:
-        if weekday(year,month,day)==4:
-            print (year, month, day)
-            month+=1
-            fris=fris+1
-            if month == 13:
-                year +=1
-                month = 1
+    if weekday(year,month,13)==4:
+        print (year, month, day)
+        month+=1
+        fris=fris+1
+        if month == 13:
+            year +=1
+            month = 1
     else:
         month +=1
         if month == 13:
