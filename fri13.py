@@ -13,9 +13,11 @@ year = date.today().year
 
 fris = 0
 
-while fris<=10:
+print ("These are the next 10 Friday the 13 dates:")
+
+while fris<10:
     if weekday(year,month,13)==4:
-        print (month, "13", year)
+        print (month,"- 13 -",year)
         month+=1
         fris=fris+1
         if month == 13:
