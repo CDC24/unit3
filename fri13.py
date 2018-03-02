@@ -14,7 +14,7 @@ year = date.today().year
 fris = 0
 
 while fris<=10:
-    for weekday(year,month,day)==4:
+    if weekday(year,month,day)==4:
         if day == 13:
             print (year, month, day)
             fris+=1
