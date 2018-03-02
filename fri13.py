@@ -18,7 +18,7 @@ while fris<=10:
         if day == 13:
             print (year, month, day)
             month+=1
-            fris+=1
+            fris=fris+1
             if month == 13:
                 year +=1
                 month = 1
