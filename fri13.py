@@ -11,8 +11,11 @@ day = date.today().day
 month = date.today().month
 year = date.today().year
 
-for i in range 1-11):
-    if weekday(year,month,day)==4:
-        print (year, month, day)
-    
+fris = 0
+
+while fris<=10:
+    for weekday(year,month,day)==4:
+        if day == 13:
+            print (year, month, day)
+            fris+=1
 
