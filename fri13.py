@@ -11,6 +11,8 @@ day = date.today().day
 month = date.today().month
 year = date.today().year
 
-for weekday(year,month,day)==4:
-    #infintiitte watch outuut
+for i in range 1-11):
+    if weekday(year,month,day)==4:
+        print (year, month, day)
+    
 
