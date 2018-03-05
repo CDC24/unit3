@@ -13,7 +13,12 @@ for i in range (-15, -8):
     
     
 total =0
-for i in range (-100,1001)
-    if i%2=0:
+for i in range (-100,1001):
+    if i%2==0:
         total +=i
+print (total)
+
+total =0
+for i in range (-100,2,1001):
+    total +=i
 print (total)
