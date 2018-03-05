@@ -20,6 +20,6 @@ print (total)
 
 
 while True:
-    words = input ("Enter something: ")
-    if "alpaca" or "Alpaca" in words:
+    words = input("Enter something: ")
+    if "alpaca" in words or "Alpaca" in words:
         break
