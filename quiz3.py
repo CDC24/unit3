@@ -18,7 +18,8 @@ for i in range (-100,1001):
         total +=i
 print (total)
 
-total =0
-for i in range (-100,2,1001):
-    total +=i
-print (total)
+
+while True:
+    words = input ("Enter something: ")
+    if "alpaca" or "Alpaca" in words:
+        break
